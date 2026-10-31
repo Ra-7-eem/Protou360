@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#11422c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description"
+    content="بروتو 360° (Protou 360) — منصة متخصصة في إنتاج الجولات الافتراضية التفاعلية 360° والتصوير البانورامي والجوي بدقة تصل إلى 8K للمشاريع العقارية والمخططات في المملكة العربية السعودية.">
+  <title>بروتو 360° | Protou 360 — جولات افتراضية وتصوير عقاري احترافي</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:title" content="بروتو 360° | Protou 360 — جولات افتراضية وتصوير عقاري بانورامي">
+  <meta property="og:description"
+    content="حلول الجولات الافتراضية 360° والتصوير الجوي والإنتاج المرئي للمشاريع العقارية في المملكة العربية السعودية بدقة 8K فائقة عبر منصة بروتو 360.">
+  <!-- Google Fonts (Cairo & Amiri like Captin Hassan) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@400;600;700;800;900&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome 6.5.2 for icons including X (Twitter) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css?v=3.0">
+</head>
+
+<body>
+
+  <!-- ===== MOBILE SIDEBAR OVERLAY ===== -->
+  <div class="mob-overlay" id="mobOverlay"></div>
+  <div class="mob-menu" id="mobMenu">
+    <div class="mob-menu-head">
+      <a href="#" class="mob-logo-link" aria-label="بروتو 360">
+        <img src="logo.svg" alt="بروتو 360° | Protou 360" class="mob-logo-img" width="220" height="48">
+      </a>
+      <button class="mob-close" id="mobClose" aria-label="إغلاق القائمة">✕</button>
+    </div>
+    <nav class="mob-nav">
+      <a href="#about"><i class="fas fa-circle-info mob-nav-icon"></i><span>من نحن</span></a>
+      <a href="#clients"><i class="fas fa-handshake mob-nav-icon"></i><span>شركاؤنا</span></a>
+      <a href="#services"><i class="fas fa-layer-group mob-nav-icon"></i><span>الخدمات</span></a>
+      <a href="#portfolio"><i class="fas fa-vr-cardboard mob-nav-icon"></i><span>أعمالنا</span></a>
+      <a href="#testimonials"><i class="fas fa-comments mob-nav-icon"></i><span>آراء العملاء</span></a>
+      <a href="#faq"><i class="fas fa-circle-question mob-nav-icon"></i><span>الأسئلة الشائعة</span></a>
+    </nav>
+    <a href="#contact-form" class="mob-cta"><i class="fas fa-paper-plane"></i><span>تواصل معنا</span></a>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="siteHeader">
+    <!-- Dynamic Golden Scroll Progress Bar -->
+    <div class="header-progress" id="headerProgress" aria-hidden="true"></div>
+
+    <nav class="header-nav">
+      <a href="#" class="logo" aria-label="بروتو 360° — الصفحة الرئيسية">
+        <img src="logo.svg" alt="بروتو 360° | Protou 360" class="logo-img" width="260" height="58">
+      </a>
+      <div class="navlinks" id="navLinks">
+        <a href="#about"><i class="fas fa-circle-info nav-link-icon"></i><span>من نحن</span></a>
+        <a href="#clients"><i class="fas fa-handshake nav-link-icon"></i><span>شركاؤنا</span></a>
+        <a href="#services"><i class="fas fa-layer-group nav-link-icon"></i><span>الخدمات</span></a>
+        <a href="#portfolio"><i class="fas fa-vr-cardboard nav-link-icon"></i><span>أعمالنا</span></a>
+        <a href="#testimonials"><i class="fas fa-comments nav-link-icon"></i><span>آراء العملاء</span></a>
+        <a href="#faq"><i class="fas fa-circle-question nav-link-icon"></i><span>الأسئلة الشائعة</span></a>
+      </div>
+      <div class="nav-right">
+        <a href="#contact-form" class="nav-cta">
+          <i class="fas fa-paper-plane"></i>
+          <span>تواصل معنا</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="فتح القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <!-- Background waves (Captin Hassan signature) -->
+    <div class="hero-bg-waves">
+      <div class="wave-contour"></div>
+      <div class="wave-bottom"></div>
+      <div class="wave-top"></div>
+    </div>
+
+    <div class="wrap hero-wrap">
+      <div class="hero-text-col">
+        <h1 class="hero-title">
+          <span class="hero-title-line hero-line-main">عقارك أقرب لعميلك</span>
+          <span class="hero-title-line hero-line-accent">بتقنية <span class="hero-gold-gradient">360°</span></span>
+        </h1>
+        <p class="lead">نقدم حلول الجولات الافتراضية الداخلية والخارجية للمخططات والمشاريع العقارية، لنمنح عملاءك تجربة
+          تفاعلية واقعية تسهّل استكشاف العقار واتخاذ القرار، وتوفر الوقت والجهد والتكاليف التسويقية.</p>
+      </div>
+
+      <div class="dial-stage">
+        <div class="compass"><i class="fas fa-arrows-rotate"></i> اسحب لاستكشاف المشروع 360°</div>
+        <div class="dial" id="dial">
+          <div class="dial-top-bar">
+            <div class="tour-hd-tag">
+              <i class="fas fa-camera-rotate"></i> 8K 360°
+            </div>
+          </div>
+
+          <div class="dial-strip" id="dialStrip"></div>
+          <div class="dial-ring"></div>
+
+          <button type="button" class="tour-arrow-btn prev-btn" id="tourPrev" aria-label="تدوير لليمين"
+            title="تدوير لليمين"><i class="fas fa-chevron-right"></i></button>
+          <button type="button" class="tour-arrow-btn next-btn" id="tourNext" aria-label="تدوير لليسار"
+            title="تدوير لليسار"><i class="fas fa-chevron-left"></i></button>
+
+          <div class="dial-bottom-bar">
+            <div class="tour-angle-box">
+              <i class="fas fa-compass" id="compassIcon"></i>
+              <span id="angleValue">360° استكشاف حر</span>
+            </div>
+            <div class="tour-ctrl-buttons">
+              <button type="button" class="tour-icon-btn" id="tourAutoBtn" title="دوران تلقائي"><i class="fas fa-play"
+                  id="tourAutoIcon"></i></button>
+              <button type="button" class="tour-icon-btn" id="tourResetBtn" title="إعادة ضبط الزاوية"><i
+                  class="fas fa-rotate-left"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-bottom-overlay">
+          <div class="hero-features">
+            <div class="feature">
+              <i class="fas fa-vr-cardboard"></i>
+              <span>واقعية</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-street-view"></i>
+              <span>تفاعل</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-award"></i>
+              <span>احترافية</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FLOATING ACTIONS BAR (Between Hero & Stats Sections) ===== -->
+  <div class="hero-bottom-actions">
+    <div class="actions-container">
+      <a href="#portfolio" class="btn btn-outline-gold-text">شاهد نماذج الأعمال</a>
+      <a href="#services" class="btn btn-outline-gold-text">استكشف خدماتنا</a>
+      <a href="#contact-form" class="btn btn-dark-green">تواصل معنا</a>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT & STATS MERGED SECTION ===== -->
+  <section id="about" class="about-section">
+    <!-- Decorative background contour ripples -->
+    <div class="about-bg-contours" aria-hidden="true">
+      <div class="contour-arc contour-arc-left"></div>
+      <div class="contour-arc contour-arc-right"></div>
+    </div>
+
+    <div class="wrap">
+      <!-- Top Grid: Text Side on Right, Visual Orbit on Left (RTL) -->
+      <div class="about-grid">
+
+        <!-- Text Side (Right in RTL) -->
+        <div class="about-text reveal">
+          <div class="eyebrow"><span class="dot"></span> من نحن</div>
+
+          <div class="about-cards-wrap" id="aboutCardsWrap">
+            <!-- Dynamic sliding accent indicator bar -->
+            <div class="about-sliding-bar" id="aboutSlidingBar" aria-hidden="true"></div>
+
+            <!-- Block 1 (Lead Card) -->
+            <div class="about-interactive-card" data-index="0" tabindex="0">
+              <p class="about-lead">نحن متخصصون في إنتاج الجولات الافتراضية بتقنية 360° للمخططات والمشاريع العقارية،
+                والتصوير الداخلي والخارجي، والتصوير الجوي والفوتوغرافي، وإنتاج الفيديوهات الاحترافية.</p>
+            </div>
+
+            <!-- Block 2 (Body Card / الديف التاني) -->
+            <div class="about-interactive-card" data-index="1" tabindex="0">
+              <p class="about-body">نسعى إلى تقديم تجربة تفاعلية واقعية تبرز تفاصيل العقارات، وتربط بين الشركات العقارية
+                والعملاء، وتسهّل استكشاف العقارات واتخاذ القرار من أي مكان، بوقت أقل وتكلفة أقل، مع الحفاظ على جودة
+                عالية واحترافية في العرض.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Side (Left in RTL) -->
+        <div class="about-visual reveal">
+          <div class="about-ring-wrap">
+            <!-- Decorative 360° rings -->
+            <div class="about-ring about-ring--1"></div>
+            <div class="about-ring about-ring--2"></div>
+            <div class="about-ring about-ring--3"></div>
+            <!-- Center card -->
+            <div class="about-center-card">
+              <div class="about-center-icon">
+                <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M3 12h18M12 3a14 14 0 010 18 14 14 0 010-18z" />
+                </svg>
+              </div>
+              <span class="about-center-label">360°</span>
+              <span class="about-center-sub">بروتو</span>
+            </div>
+            <!-- Orbiting badges -->
+            <div class="about-badge about-badge--top">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z" />
+              </svg>
+              8K دقة
+            </div>
+            <div class="about-badge about-badge--left">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+              48h تسليم
+            </div>
+            <div class="about-badge about-badge--bottom">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              +64 جولة
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Golden Horizontal Divider -->
+      <div class="about-divider" aria-hidden="true"></div>
+
+      <!-- Bottom: The 4 Stats Counters -->
+      <div class="about-stats-row" id="stats">
+        <!-- 1. جولة افتراضية -->
+        <div class="stat-item reveal">
+          <div class="stat-header">
+            <b class="stat-num" data-target="64">0</b>
+            <span>+</span>
+          </div>
+          <p>جولة افتراضية</p>
+        </div>
+
+        <!-- 2. قطعة عقارية -->
+        <div class="stat-item reveal">
+          <div class="stat-header">
+            <b class="stat-num" data-target="3208">0</b>
+            <span>+</span>
+          </div>
+          <p>قطعة عقارية</p>
+        </div>
+
+        <!-- 3. مشروع عقاري -->
+        <div class="stat-item reveal">
+          <div class="stat-header">
+            <b class="stat-num" data-target="21">0</b>
+            <span>+</span>
+          </div>
+          <p>مشروع عقاري</p>
+        </div>
+
+        <!-- 4. مشاهدة للجولات -->
+        <div class="stat-item reveal">
+          <div class="stat-header">
+            <b class="stat-num" data-target="371">0</b>
+            <span>K+</span>
+          </div>
+          <p>مشاهدة للجولات</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== CLIENTS LOGOS ===== -->
+  <section id="clients" class="clients-section">
+    <div class="wrap">
+      <div class="section-head reveal" style="text-align:center; max-width:100%;">
+        <div class="eyebrow" style="justify-content:center;"><span class="dot"></span> شركاؤنا</div>
+        <h2>عملاؤنا شركاء نجاحنا</h2>
+      </div>
+
+      <div class="clients-wall">
+
+        <!-- 1. برنامج سكني -->
+        <div class="client-tile" style="--stagger:840ms" title="برنامج سكني">
+          <div class="client-tile-media">
+            <img src="Logos/شعار-سكني----SVG.png" alt="برنامج سكني" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 2. إيمز القابضة -->
+        <div class="client-tile" style="--stagger:800ms" title="إيمز القابضة AIMS">
+          <div class="client-tile-media">
+            <img src="Logos/AIMS.png" alt="إيمز القابضة AIMS" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 3. دار القياس للمزادات -->
+        <div class="client-tile" style="--stagger:200ms" title="دار القياس للمزادات">
+          <div class="client-tile-media">
+            <img src="Logos/logo-1.png" alt="دار القياس للمزادات" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 4. كانف للمزادات -->
+        <div class="client-tile" style="--stagger:120ms" title="كانف للمزادات CANV">
+          <div class="client-tile-media">
+            <img src="Logos/Auctions%20Master%20logo.png" alt="كانف للمزادات CANV" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 5. شركة منصات العقارية -->
+        <div class="client-tile" style="--stagger:760ms" title="شركة منصات العقارية MENASSAT">
+          <div class="client-tile-media">
+            <img src="Logos/منصات.png1.png" alt="شركة منصات العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 6. حلول اليوم العقارية -->
+        <div class="client-tile" style="--stagger:160ms" title="حلول اليوم العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/Holol-Logo.png" alt="حلول اليوم العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 7. شركة حنون المتحدة -->
+        <div class="client-tile" style="--stagger:0ms" title="شركة حنون المتحدة (تجارة - مقاولات)">
+          <div class="client-tile-media">
+            <img src="Logos/1.png" alt="شركة حنون المتحدة" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 8. شركة محمد الاصيفر -->
+        <div class="client-tile" style="--stagger:40ms" title="شركة محمد الاصيفر للتطوير والاستثمار العقاري">
+          <div class="client-tile-media">
+            <img src="Logos/2.png" alt="شركة محمد الاصيفر للتطوير والاستثمار العقاري" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 9. مدر للتسويق العقاري -->
+        <div class="client-tile" style="--stagger:80ms" title="مدر للتسويق العقاري">
+          <div class="client-tile-media">
+            <img src="Logos/344-01.png" alt="مدر للتسويق العقاري" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 10. أسس المعالي -->
+        <div class="client-tile" style="--stagger:240ms" title="أسس المعالي للتطوير والاستثمار العقاري">
+          <div class="client-tile-media">
+            <img src="Logos/logo-Osos.png" alt="أسس المعالي للتطوير والاستثمار العقاري" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 11. شركة الجابر -->
+        <div class="client-tile" style="--stagger:280ms" title="شركة الجابر AJC">
+          <div class="client-tile-media">
+            <img src="Logos/LogoFooter.png" alt="شركة الجابر AJC" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 12. تشييد للتطوير الحضري -->
+        <div class="client-tile" style="--stagger:320ms" title="تشييد للتطوير الحضري">
+          <div class="client-tile-media">
+            <img src="Logos/Logos-2.png" alt="تشييد للتطوير الحضري" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 13. شركة مكان العقارية -->
+        <div class="client-tile" style="--stagger:360ms" title="شركة مكان العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/makan-logo.png" alt="شركة مكان العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 14. مجمع الرياض -->
+        <div class="client-tile" style="--stagger:400ms" title="مجمع الرياض RIYADH COMPOUND">
+          <div class="client-tile-media">
+            <img src="Logos/Transparent-01-2-_edited-20260817-075211.png" alt="مجمع الرياض" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 15. المحيسن العقارية -->
+        <div class="client-tile" style="--stagger:440ms" title="المحيسن العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/المحيسن.png" alt="المحيسن العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 16. إمضاء العقارية -->
+        <div class="client-tile" style="--stagger:480ms" title="إمضاء العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/امضاء.png" alt="إمضاء العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 17. مجموعة أبابطين العقارية -->
+        <div class="client-tile" style="--stagger:520ms" title="مجموعة أبابطين العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/تم-تعديل-لقطة-الشاشة-2025-10-05-055301.png" alt="مجموعة أبابطين العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 18. مؤسسة الدرع المطور -->
+        <div class="client-tile" style="--stagger:560ms" title="مؤسسة الدرع المطور للمقاولات العامة">
+          <div class="client-tile-media">
+            <img src="Logos/درع%20للمقاولات%20لوجو1.png" alt="مؤسسة الدرع المطور للمقاولات العامة" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 19. شركة تطوير الأعمال المتعددة -->
+        <div class="client-tile" style="--stagger:600ms" title="شركة تطوير الأعمال المتعددة MBD">
+          <div class="client-tile-media">
+            <img src="Logos/شركة-تطوير-الأعمال-المتعددة.png" alt="شركة تطوير الأعمال المتعددة" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 20. شركة قواسم العقارية -->
+        <div class="client-tile" style="--stagger:640ms" title="شركة قواسم العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/قواسم%20(2).png" alt="شركة قواسم العقارية" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 21. الفيضة للعقارات -->
+        <div class="client-tile" style="--stagger:680ms" title="الفيضة للعقارات (مخطط ثروات)">
+          <div class="client-tile-media">
+            <img src="Logos/مخطط-ثروات-لاند.png" alt="الفيضة للعقارات" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 22. شركة مطارح -->
+        <div class="client-tile" style="--stagger:720ms" title="شركة مطارح">
+          <div class="client-tile-media">
+            <img src="Logos/مطارح.png" alt="شركة مطارح" loading="lazy">
+          </div>
+        </div>
+
+        <!-- 23. شركة مسيم العقارية -->
+        <div class="client-tile" style="--stagger:880ms" title="شركة مسيم العقارية">
+          <div class="client-tile-media">
+            <img src="Logos/مسيم-العقارية.png" alt="شركة مسيم العقارية" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mobile Toggle: Show all / Show less clients -->
+      <div class="clients-toggle-wrap">
+        <button type="button" class="btn-clients-toggle" id="clientsToggleBtn" aria-expanded="false">
+          <span class="toggle-text">عرض الكل</span>
+          <i class="fas fa-chevron-down toggle-icon" aria-hidden="true"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal" style="text-align:center; max-width:760px; margin:0 auto 48px;">
+        <div class="eyebrow" style="justify-content:center;"><span class="dot"></span> خدماتنا</div>
+        <h2>حلول بصرية وتقنية متكاملة لتسويق عقارك</h2>
+        <p>نجمع بين تقنيات الجولات الافتراضية 360° المتطورة والإنتاج الإعلامي الإبداعي لنمنح مشروعك حضوراً رقمياً
+          استثنائياً يدعم المبيعات ويسرّع اتخاذ القرار.</p>
+      </div>
+
+      <div class="services-grid reveal">
+
+        <!-- 1. 360 Virtual Tours -->
+        <div class="service-card">
+          <span class="service-num">01</span>
+          <div class="service-icon-box">
+            <i class="fas fa-vr-cardboard"></i>
+          </div>
+          <div class="service-content">
+            <h3>تصوير جولات افتراضية بزاوية 360° داخلية وخارجية</h3>
+            <p>جولات تفاعلية فائقة الدقة تتيح لعملائك التجول بحرية داخل الوحدات والمخططات واستكشاف كافة التفاصيل
+              المعمارية من أي جهاز في أي وقت.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>تجربة تفاعلية غامرة</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 2. Video Production -->
+        <div class="service-card">
+          <span class="service-num">02</span>
+          <div class="service-icon-box">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="service-content">
+            <h3>تصوير فيديو احترافي وسينمائي</h3>
+            <p>لقطات سينمائية تُبرز جماليات المشروع، الموقع الاستراتيجي، والمرافق الحيوية بأسلوب تسويقي مشوّق
+              يخطف الأنظار.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>إخراج سينمائي مبهر</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 3. Drone Aerial Photography -->
+        <div class="service-card">
+          <span class="service-num">03</span>
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 10a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+              <path d="m4.93 4.93 4.24 4.24"/>
+              <path d="m14.83 14.83 4.24 4.24"/>
+              <path d="m14.83 9.17 4.24-4.24"/>
+              <path d="m4.93 19.07 4.24-4.24"/>
+              <path d="M2 5h6"/>
+              <path d="M16 5h6"/>
+              <path d="M2 19h6"/>
+              <path d="M16 19h6"/>
+            </svg>
+          </div>
+          <div class="service-content">
+            <h3>تصوير جوي احترافي بالدرون بدقة 4k</h3>
+            <p>نقدم تصويرًا جويًا باستخدام أحدث طائرات الدرون بدقة 4k، بلقطات سينمائية وزوايا إبداعية تُبرز جمال المشاريع
+              العقارية وتُعزز جاذبيتها التسويقية.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>لقطات جوية بدقة 4K</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 4. Photography -->
+        <div class="service-card">
+          <span class="service-num">04</span>
+          <div class="service-icon-box">
+            <i class="fas fa-camera"></i>
+          </div>
+          <div class="service-content">
+            <h3>تصوير فوتوغرافي عالي الجودة</h3>
+            <p>تصوير معماري احترافي بعدسات متخصصة وزوايا مدروسة، يبرز جمال التصميم وفخامة التفاصيل بأسلوب راقٍ يناسب
+              الكتيبات والمنصات العقارية والإعلانية.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>عدسات معمارية خاصة</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 5. Video Editing & Motion -->
+        <div class="service-card">
+          <span class="service-num">05</span>
+          <div class="service-icon-box">
+            <i class="fas fa-wand-magic-sparkles"></i>
+          </div>
+          <div class="service-content">
+            <h3>مونتاج وإنتاج مرئي احترافي</h3>
+            <p>تحرير متقن يشمل تصحيح الألوان السينمائي والمؤثرات البصرية والصوتية المناسبة لإنتاج مقاطع ترويجية مميزة
+              تجذب الجمهور على منصات التواصل.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>إخراج احترافي مخصص</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 6. Content Creation -->
+        <div class="service-card">
+          <span class="service-num">06</span>
+          <div class="service-icon-box">
+            <i class="fas fa-pen-nib"></i>
+          </div>
+          <div class="service-content">
+            <h3>كتابة محتوى إبداعي وتسويقي</h3>
+            <p>صياغة نصوص ترويجية مؤثرة ومحتوى تسويقي يخاطب رغبات المشترين والمستثمرين، ويُبرز المزايا التنافسية للعقار
+              بأسلوب جذاب ومقنع.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>نصوص بيعية مدروسة</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 7. Voice Over -->
+        <div class="service-card">
+          <span class="service-num">07</span>
+          <div class="service-icon-box">
+            <i class="fas fa-microphone-lines"></i>
+          </div>
+          <div class="service-content">
+            <h3>تعليق صوتي احترافي (Voice Over)</h3>
+            <p>أصوات إذاعية رخيمة ومتميزة بلهجات سعودية وفصحى لإضفاء طابع رسمي وفخم يعزز مصداقية عروضك المرئية ويترك
+              أثراً دائماً.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>نخبة من المعلقين</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+        <!-- 8. Interactive Control Panel -->
+        <div class="service-card">
+          <span class="service-num">08</span>
+          <div class="service-icon-box">
+            <i class="fas fa-sliders"></i>
+          </div>
+          <div class="service-content">
+            <h3>لوحة تحكم تفاعلية لإدارة القطع العقارية</h3>
+            <p>نوفر لوحة تحكم ذكية تتيح إدارة وتحديث حالة القطع العقارية (متاح – محجوز – مباع) بكل سهولة عبر الجوال أو
+              الكمبيوتر، مع ظهور التحديثات مباشرة داخل الجولة الافتراضية 360°.</p>
+          </div>
+          <div class="service-footer">
+            <span class="service-tag"><span>تحديث مباشر ولحظي</span> <i class="fas fa-arrow-left"></i></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio">
+    <div class="wrap">
+      <div class="section-head reveal" style="text-align:center; max-width:100%; margin-left:auto; margin-right:auto;">
+        <div class="eyebrow" style="margin:0 auto 14px; justify-content:center;"><span class="dot"></span> أعمالنا</div>
+        <h2>نماذج من مشاريعنا ومساحاتنا</h2>
+        <p style="margin:0 auto; max-width:64ch;">عينة مختارة من المشاريع والمخططات العقارية التي قمنا بتغطيتها في مختلف
+          مناطق المملكة.</p>
+      </div>
+
+      <div class="portfolio-grid reveal">
+        <div class="pf-card">
+          <div class="pf-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="300" fill="#1b2528" />
+              <rect x="0" y="180" width="400" height="120" fill="#141c1f" />
+              <rect x="40" y="60" width="120" height="120" fill="#22302f" opacity="0.7" />
+              <rect x="220" y="90" width="150" height="90" fill="#2a3a38" opacity="0.6" />
+              <circle cx="200" cy="150" r="130" fill="none" stroke="#c9a227" stroke-opacity="0.25" stroke-width="1" />
+            </svg>
+            <div class="pf-badge">جولة 360°</div>
+            <div class="pf-overlay">
+              <a href="#contact-form" class="pf-tour-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M10 8l6 4-6 4V8z" />
+                </svg>
+                شاهد نموذج الجولة
+              </a>
+            </div>
+          </div>
+          <div class="pf-info">
+            <h3>فيلا سكنية فاخرة — الرياض (حي حطين)</h3><span>6 نقاط تصوير</span>
+          </div>
+        </div>
+        <div class="pf-card">
+          <div class="pf-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="300" fill="#181f22" />
+              <path d="M0 220 L120 120 L240 220 Z" fill="#233230" opacity="0.7" />
+              <path d="M160 240 L280 140 L400 240 Z" fill="#2b3c39" opacity="0.6" />
+              <circle cx="200" cy="150" r="130" fill="none" stroke="#c9a227" stroke-opacity="0.25" stroke-width="1" />
+            </svg>
+            <div class="pf-badge">جولة 360°</div>
+            <div class="pf-overlay">
+              <a href="#contact-form" class="pf-tour-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M10 8l6 4-6 4V8z" />
+                </svg>
+                شاهد نموذج الجولة
+              </a>
+            </div>
+          </div>
+          <div class="pf-info">
+            <h3>برج واستقبال فندقي — جدة</h3><span>9 نقاط تصوير</span>
+          </div>
+        </div>
+        <div class="pf-card">
+          <div class="pf-thumb">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="300" fill="#141c1f" />
+              <rect x="0" y="0" width="400" height="150" fill="#1f2b29" opacity="0.6" />
+              <rect x="60" y="170" width="90" height="90" rx="6" fill="#2a3a38" opacity="0.7" />
+              <rect x="180" y="150" width="140" height="110" rx="6" fill="#233230" opacity="0.6" />
+              <circle cx="200" cy="150" r="130" fill="none" stroke="#c9a227" stroke-opacity="0.25" stroke-width="1" />
+            </svg>
+            <div class="pf-badge">جولة 360°</div>
+            <div class="pf-overlay">
+              <a href="#contact-form" class="pf-tour-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M10 8l6 4-6 4V8z" />
+                </svg>
+                شاهد نموذج الجولة
+              </a>
+            </div>
+          </div>
+          <div class="pf-info">
+            <h3>مطعم ولاونج راقٍ — الخبر</h3><span>5 نقاط تصوير</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="testi-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow"><span class="dot"></span> آراء العملاء</div>
+        <h2>عملاء عاشوا التجربة وصنعوا الفرق</h2>
+        <p>تجارب وشهادات شركائنا في النجاح من كبرى الشركات والمشاريع العقارية والسياحية بالمملكة.</p>
+      </div>
+      <!-- Testimonials Slider / Carousel -->
+      <div class="testi-slider-container reveal" id="testiSliderContainer">
+        <!-- Navigation Arrow: Previous (Right in RTL) -->
+        <button class="testi-nav-btn testi-nav-prev" id="testiPrevBtn" aria-label="التقييم السابق">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+
+        <!-- Slider Viewport & Moving Track -->
+        <div class="testi-slider-viewport" id="testiViewport">
+          <div class="testi-slider-track" id="testiTrack">
+            <!-- Slide 1 -->
+            <div class="testi-card">
+              <div class="testi-person">
+                <div class="testi-avatar">م.ع</div>
+                <div><b>محمد عبدالله</b><span>مسوق عقاري</span></div>
+              </div>
+              <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+              <p class="testi-quote">"بصراحة أول مرة أجرب الجولات الافتراضية، لكن بعد ما شفت النتيجة اقتنعت فيها. شغل مرتب وفكرة تخدم العقار بشكل جميل، تسلم يمينكم ❤️"</p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testi-card">
+              <div class="testi-person">
+                <div class="testi-avatar">ع.ض</div>
+                <div><b>عبدالعزيز الضحيك</b><span>مطور عقاري</span></div>
+              </div>
+              <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+              <p class="testi-quote">"ما شاء الله عليكم ، حتى أرقام القطع والمساحات والمعالم القريبة كلها واضحة. هذا اللي كنا نحتاجه بالضبط، الله يعطيك العافية."</p>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testi-card">
+              <div class="testi-person">
+                <div class="testi-avatar">ر.هـ</div>
+                <div><b>رهام الهوساوي</b><span>تسويق شركة عقارية</span></div>
+              </div>
+              <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+              <p class="testi-quote">"بيض الله وجهك يا غالي، أبدعت في الشغل، خصوصًا طريقة عرض العقار والتفاصيل. إن شاء الله لنا شغل كثير مع بعض 🤝"</p>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="testi-card">
+              <div class="testi-person">
+                <div class="testi-avatar">س.ع</div>
+                <div><b>سعود العجلان</b><span>أراضي</span></div>
+              </div>
+              <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+              <p class="testi-quote">"والله فرق كبير عن الصور العادية. الحين العميل يقدر يشوف القطع ومواقعها وكل التفاصيل وهو جالس في بيته، فكرة ممتازة صراحة 👍 وكذالك تفيد الي يبعون على خارطة. موفقين يارب"</p>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="testi-card">
+              <div class="testi-person">
+                <div class="testi-avatar">س.س</div>
+                <div><b>سلطانه سعود</b><span>مسوقه عقاريه</span></div>
+              </div>
+              <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+              <p class="testi-quote">"ما شاء الله تبارك الله، شغل يفتح النفس والله 👌 ما توقعت الجولة تطلع بهالجمال والوضوح، يعطيك العافية وما قصرت معنا ❤️"</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Arrow: Next (Left in RTL) -->
+        <button class="testi-nav-btn testi-nav-next" id="testiNextBtn" aria-label="التقييم التالي">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <!-- Pagination Dots -->
+        <div class="testi-slider-dots" id="testiDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="faq-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow"><span class="dot"></span> الأسئلة الشائعة</div>
+        <h2>الأسئلة الأكثر شيوعاً</h2>
+        <p>إجابات وافية على أكثر الاستفسارات التي يطرحها عملاؤنا قبل بدء تنفيذ الجولات الافتراضية.</p>
+      </div>
+      <div class="faq-list reveal">
+        <!-- 1. ما هي الجولة الافتراضية 360°؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>ما هي الجولة الافتراضية 360°؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>هي تقنية تتيح للعميل استكشاف العقار أو المخطط العقاري بشكل تفاعلي من جميع الاتجاهات، وكأنه موجود في الموقع فعليًا، دون الحاجة إلى زيارته.</p>
+          </div>
+        </div>
+
+        <!-- 2. هل الجولات الافتراضية مناسبة للمخططات العقارية؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>هل الجولات الافتراضية مناسبة للمخططات العقارية؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>نعم، يمكن عرض المخطط بالكامل، وتوضيح مواقع القطع وأرقامها ومساحاتها، والشوارع المحيطة والمعالم القريبة.</p>
+          </div>
+        </div>
+
+        <!-- 3. هل يمكن استخدام الجولة الافتراضية في المزادات العقارية؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>هل يمكن استخدام الجولة الافتراضية في المزادات العقارية؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>نعم، تعتبر وسيلة فعالة لعرض العقارات والأراضي المشاركة في المزادات، وتمكين المهتمين من استكشاف المواقع وتفاصيلها عن بعد.</p>
+          </div>
+        </div>
+
+        <!-- 4. هل تساعد الجولة الافتراضية في تسويق العقارات؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>هل تساعد الجولة الافتراضية في تسويق العقارات؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>نعم، تساعد العملاء على فهم العقار وموقعه وتفاصيله بشكل أوضح، وتسهّل اتخاذ قرار المعاينة أو الشراء، كما تقلل الحاجة إلى الزيارات الأولية.</p>
+          </div>
+        </div>
+
+        <!-- 5. هل يمكن مشاركة الجولة الافتراضية مع العملاء؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>هل يمكن مشاركة الجولة الافتراضية مع العملاء؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>نعم، يمكن مشاركة رابط الجولة عبر واتساب أو منصات التواصل الاجتماعي أو إضافته إلى الموقع الإلكتروني للشركة.</p>
+          </div>
+        </div>
+
+        <!-- 6. كم يستغرق تنفيذ الجولة الافتراضية؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>كم يستغرق تنفيذ الجولة الافتراضية؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>تختلف مدة التنفيذ بحسب مساحة المشروع وعدد المواقع والتفاصيل المطلوبة، ويتم تحديد المدة بعد معاينة المشروع.</p>
+          </div>
+        </div>
+
+        <!-- 7. هل يمكن تحديث الجولة الافتراضية بعد تسليمها؟ -->
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>هل يمكن تحديث الجولة الافتراضية بعد تسليمها؟</span>
+            <div class="faq-icon"></div>
+          </button>
+          <div class="faq-a">
+            <p>نعم، يمكن تحديث بعض المعلومات وحالات القطع وفقًا للخدمات المتفق عليها، دون الحاجة إلى إعادة تصوير المشروع بالكامل، ما لم تتغير معالمه الفعلية.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT FORM ===== -->
+  <section id="contact-form" class="contact-section">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-info-head reveal">
+          <div class="eyebrow"><span class="dot"></span> تواصل معنا</div>
+          <h2>جاهز للبدء؟<br>شاركنا تفاصيل مشروعك</h2>
+          <p>سنتواصل معك خلال يوم عمل واحد لتأكيد الموعد ومناقشة تفاصيل وخطة التصوير الميداني.</p>
+        </div>
+        <form class="contact-form reveal" id="mainContactForm" novalidate>
+          <div class="form-group">
+            <label for="fname">الاسم</label>
+            <input type="text" id="fname" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="ftype">نوع المساحة أو المشروع</label>
+            <select id="ftype" name="type" required>
+              <option value="" disabled selected>اختر النوع</option>
+              <option>فيلا / قصر سكني</option>
+              <option>مخطط عقاري / مشروع أراضي</option>
+              <option>برج / مبنى إداري ومكاتب</option>
+              <option>فندق / منتجع سياحي</option>
+              <option>مطعم / مقهى راقٍ</option>
+              <option>معرض تجاري / صالة عرض</option>
+              <option>قاعة مناسبات واحتفالات</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmsg">تفاصيل إضافية (اختياري)</label>
+            <textarea id="fmsg" name="message" rows="4"
+              placeholder="اذكر موقع المشروع (المدينة/الحي)، المساحة التقريبية، وأي متطلبات خاصة..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit" id="formSubmit">
+            إرسال الطلب
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            تم إرسال طلبك بنجاح! سيتواصل معك مستشارنا قريباً.
+          </div>
+        </form>
+        <div class="contact-details reveal">
+          <a href="tel:+966536082830" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.19 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.72 6.72l1.28-1.28a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+            </div>
+            <span>0536082830</span>
+          </a>
+          <a href="mailto:info@protou360.com" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <span>info@protou360.com</span>
+          </a>
+          <a href="https://wa.me/966536082830" class="contact-link" target="_blank" rel="noopener noreferrer">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path
+                  d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+              </svg>
+            </div>
+            <span>واتساب مباشر</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact">
+    <div class="wrap">
+      <!-- Footer Top Branding Bar -->
+      <div class="foot-top-bar">
+        <a href="#" class="foot-logo-link" aria-label="بروتو 360° — الصفحة الرئيسية">
+          <img src="logo-white.svg" alt="بروتو 360° | Protou 360" class="foot-logo" width="280" height="66">
+        </a>
+        <p class="foot-slogan">جولات افتراضية تفاعلية 360° وتصوير عقاري احترافي بدقة تصل إلى 8K في جميع أنحاء المملكة
+        </p>
+      </div>
+
+      <!-- Footer Columns (Matching Reference: الرئيسية | خدماتنا | الرياض | شبكات التواصل) -->
+      <div class="foot-grid">
+        <!-- Col 1: الرئيسية -->
+        <div class="foot-col">
+          <h4>الرئيسية</h4>
+          <a href="#about">من نحن</a>
+          <a href="#services">خدماتنا</a>
+          <a href="#portfolio">أعمالنا</a>
+          <a href="#clients">شركاؤنا</a>
+          <a href="#faq">الأسئلة الشائعة</a>
+        </div>
+
+        <!-- Col 2: خدماتنا -->
+        <div class="foot-col">
+          <h4>خدماتنا</h4>
+          <a href="#services">جولات افتراضية 360°</a>
+          <a href="#services">تصوير جوي درون (Drone)</a>
+          <a href="#services">تصوير سينمائي وفوتوغرافي</a>
+          <a href="#services">مخططات ومشاريع عقارية</a>
+          <a href="#services">فنادق ومنتجعات سياحية</a>
+        </div>
+
+        <!-- Col 3: فروعنا والتواصل -->
+        <div class="foot-col">
+          <h4>فروعنا</h4>
+          <div class="foot-loc-item">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>الرياض</span>
+          </div>
+          <div class="foot-loc-item">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>جدة</span>
+          </div>
+          <div class="foot-loc-item" style="margin-top: 14px;">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:+966536082830" class="foot-contact-inline"><bdi>0536082830</bdi></a>
+          </div>
+          <div class="foot-loc-item">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:info@protou360.com" class="foot-contact-inline">info@protou360.com</a>
+          </div>
+        </div>
+
+        <!-- Col 4: شبكات التواصل -->
+        <div class="foot-col">
+          <h4>شبكات التواصل</h4>
+          <p class="foot-country-text">المملكة العربية السعودية</p>
+          <div class="foot-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+              class="foot-social-btn" title="إنستغرام">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"
+              class="foot-social-btn" title="تويتر / منصة إكس">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+              class="foot-social-btn" title="يوتيوب">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+              class="foot-social-btn" title="فيسبوك">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/966536082830" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
+              class="foot-social-btn" title="واتساب مباشر">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="foot-bottom">
+        <span>© 2026 بروتو 360° — جميع الحقوق محفوظة</span>
+        <a href="https://wa.me/201032304640" target="_blank" rel="noopener noreferrer" class="foot-dev-link"
+          title="تواصل مع المطور عبر واتساب">تصميم وتطوير م. رحيم <bdi>201032304640</bdi></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=2.4"></script>
+
+</body>
+
+</html>
