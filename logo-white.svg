@@ -53,24 +53,24 @@
     <circle cx="-22" cy="0" r="1.3" fill="#ffffff"/>
   </g>
 
-  <!-- Brand Typography: Tight, close spacing between 360 and بروتو (White Edition) -->
+  <!-- Brand Typography: Perfectly balanced natural spacing (White Edition) -->
   <g id="brandTypographyWhite">
-    <!-- Arabic Brand Name: بروتو (Close to 360) -->
-    <text x="145" y="29" text-anchor="middle" font-family="'Cairo', 'Segoe UI', -apple-system, sans-serif" font-weight="900" font-size="22.5" fill="#ffffff">
+    <!-- Arabic Brand Name: بروتو -->
+    <text x="143" y="29" text-anchor="middle" font-family="'Cairo', 'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="900" font-size="22.5" fill="#ffffff">
       بروتو
     </text>
 
     <!-- 360 with Degree Symbol firmly attached right next to بروتو -->
-    <g transform="translate(86, 29)">
-      <text x="0" y="0" text-anchor="middle" font-family="'Cairo', 'Segoe UI', -apple-system, sans-serif" font-weight="900" font-size="23.5" fill="url(#goldGradWhite)" letter-spacing="0.5">
+    <g transform="translate(84, 29)">
+      <text x="0" y="0" text-anchor="middle" font-family="'Cairo', 'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="900" font-size="23.5" fill="url(#goldGradWhite)" letter-spacing="0.5">
         360
       </text>
       <!-- Degree symbol circle locked directly to top-right of 360 -->
       <circle cx="25" cy="-14" r="2.7" stroke="url(#goldGradWhite)" stroke-width="1.6" fill="none"/>
     </g>
 
-    <!-- Subtitle: English Brand -->
-    <text x="105" y="44" text-anchor="middle" font-family="'Cairo', 'Segoe UI', -apple-system, sans-serif" font-weight="700" font-size="8.6" fill="#dfbe77" letter-spacing="1">
+    <!-- Subtitle: English Brand (Refined balanced margin, aligned with top text) -->
+    <text x="103" y="44" text-anchor="middle" font-family="'Cairo', 'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="700" font-size="7.8" fill="#dfbe77" letter-spacing="0.6" textLength="122" lengthAdjust="spacing">
       360 - VIRTUAL EXPERIENCES
     </text>
   </g>
