@@ -3915,7 +3915,7 @@ footer::before {
 
 /* Footer Column Headings */
 .foot-col h4 {
-  font-family: var(--font-body);
+  font-family: var(--font-main);
   font-size: 1.25rem;
   color: #ffffff;
   margin-bottom: 18px;
